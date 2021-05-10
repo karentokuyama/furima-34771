@@ -37,7 +37,7 @@
 
 ### addressesテーブル
 
-|Column                     |Type      |Options            |
+|Column          |Type      |Options                       |
 |family_name     |string    |null:false                    |
 |first_name      |string    |null:false                    |
 |family_name_kana|string    |null:false                    |
@@ -56,10 +56,15 @@
 
 ## cardsテーブル
 
-|Column     |Type      |Options                       |
-|payjp_id   |string    |null: false, unique: true     |
-|customer_id|string    |null: false                   |
-|user       |references|null: false, foreign_key: true|
+|Column         |Type      |Options                       |
+|payjp_id       |string    |null: false, unique: true     |
+|customer_id    |string    |null: false                   |
+|credit_number  |integer   |null:false                    |
+|expiration_year|integer   |null:false                    |
+|security_number|integer   |null:false                    |
+|user           |references|null: false, foreign_key: true|
+
+
 
 
 ### Association
