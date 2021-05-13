@@ -1,7 +1,7 @@
 ## usersテーブル
 
 |Column             |Type     |Options               |
-|nikname            |string   |null:false,unique:true|
+|nikname            |string   |null:false            |
 |email              |string   |null:false,unique:true|
 |encrypted_password |string   |null:false            |
 |family_name        |string   |null:false            |
@@ -12,7 +12,6 @@
 
 ### Association
 ・has_many :items, dependent: :destroy, foreign_key: :items
-・has_one :address, dependent: :destroy
 ・has_many :order, dependent: :destroy
 
 ## itemsテーブル
@@ -54,6 +53,7 @@
 |Column          |Type      |Options                          |
 |item            |references|nulnull: false, foreign_key: true|
 |user            |references|nulnull: false, foreign_key: true|
+
 
 ### Association
 ・has_one :item
