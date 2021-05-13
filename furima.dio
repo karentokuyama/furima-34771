@@ -1,6 +1,6 @@
 <mxfile>
     <diagram id="UOaFbPJVd3XEIIrLCz17" name="ページ1">
-        <mxGraphModel dx="1572" dy="433" grid="1" gridSize="10" guides="0" tooltips="1" connect="0" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
+        <mxGraphModel dx="1976" dy="867" grid="1" gridSize="10" guides="0" tooltips="1" connect="0" arrows="0" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -10,9 +10,6 @@
                             <mxPoint x="65" y="680"/>
                         </Array>
                     </mxGeometry>
-                </mxCell>
-                <mxCell id="432" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=ERmandOne;endFill=0;" parent="1" source="120" target="141" edge="1">
-                    <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="120" value="users" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" parent="1" vertex="1">
                     <mxGeometry x="380" y="510" width="570" height="300" as="geometry"/>
@@ -151,11 +148,6 @@
                 </mxCell>
                 <mxCell id="381" value="null:false" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" parent="377" vertex="1">
                     <mxGeometry x="290" width="280" height="30" as="geometry"/>
-                </mxCell>
-                <mxCell id="433" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=ERmandOne;endFill=0;" parent="1" source="141" edge="1">
-                    <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="665" y="820" as="targetPoint"/>
-                    </mxGeometry>
                 </mxCell>
                 <mxCell id="141" value="addresses" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" parent="1" vertex="1">
                     <mxGeometry x="380" y="1040" width="570" height="270" as="geometry"/>
