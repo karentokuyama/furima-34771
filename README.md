@@ -56,5 +56,7 @@
 
 
 ### Association
-・has_one :item
-・has_one :user
+・belongs_to :user
+・belongs_to :item
+・has_one :addresses
+
