@@ -20,33 +20,34 @@
 |Column       |Type      |Options                     |
 |name         |string    |null:false                  |
 |text         |text      |null:false                  |
-|category_id  |references|null:false,foreigen_key:true|
+|category_id  |integer   |null:false                  |
 |condition_id |integer   |null:false                  |
 |postage_id   |integer   |null:false                  |
 |prefecture_id|integer   |null:false                  |
 |prepare_id   |integer   |null:false                  |
-|price        |references|null:false                  |
+|price        |integer   |null:false                  |
 |user         |references|foreign_key:true            |
 
 
 ### Association
 ・belongs_to :user
+・has＿one：order
 
 
 ### addressesテーブル
 
 |Column          |Type      |Options                       |
-|post_code       |integer   |null:false                    |
+|post_code       |string    |null:false                    |
 |prefecture_id   |integer   |null:false                    |
 |city            |string    |null:false                    |
 |home_number     |string    |null:false                    |
 |building_name   |string    |                              |
-|phone_number    |string    |unique: true                  |
-|user            |references|null: false, foreign_key: true|
+|phone_number    |string    |null:false                    |
+|order           |references|null: false, foreign_key: true|
 
 
 ### Association
-・belongs_to :user
+・belongs_to :order
 
 ### orderテーブル
 
